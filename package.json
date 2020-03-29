@@ -1,0 +1,29 @@
+{
+  "name": "bchd-examples",
+  "version": "1.0.0",
+  "description": "Examples using the gRPC interface for BCHD in a Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --fix",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "javascript",
+    "bitcoin",
+    "bitcoin",
+    "cash",
+    "bch",
+    "bchd",
+    "grpc",
+    "node.js"
+  ],
+  "author": "Chris Troutner <chris.troutner@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "semantic-release": "^17.0.4",
+    "standard": "^14.3.3"
+  },
+  "dependencies": {
+    "grpc-bchrpc-node": "^0.10.0"
+  }
+}
