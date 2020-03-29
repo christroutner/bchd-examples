@@ -16,12 +16,12 @@ async function runTest () {
     const res = await grpc.getRawTransaction({ hash: txid, reversedHashOrder: true })
     const resStr = Buffer.from(res.getTransaction_asU8()).toString('hex')
 
-    console.log(`\nHex representation of the transaction:`)
-    console.log(resStr);
+    console.log('\nHex representation of the transaction:')
+    console.log(resStr)
     // console.log('res: ', res)
 
     const decoded = await bchjs.RawTransactions.decodeRawTransaction(resStr)
-    console.log(`\nJSON representation of the transaction: ${JSON.stringify(decoded,null,2)}`)
+    console.log(`\nJSON representation of the transaction: ${JSON.stringify(decoded, null, 2)}`)
   } catch (err) {
     console.error('Error: ', err)
   }
