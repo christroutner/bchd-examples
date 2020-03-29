@@ -210,3 +210,24 @@ res: {
 }
 
 ```
+
+Ultimately, the data above should be parsed into JSON data that looks like this:
+```
+{
+  "utxos": [
+    {
+      "txid": "6181c669614fa18039a19b23eb06806bfece1f7514ab457c3bb82a40fe171a6d",
+      "vout": 0,
+      "amount": 0.00001,
+      "satoshis": 1000,
+      "height": 601861,
+      "confirmations": 26736
+    }
+  ],
+  "legacyAddress": "1A2fmjLeJXGbkQoTZDi2RdvcASGXgKEjvj",
+  "cashAddress": "bitcoincash:qp3sn6vlwz28ntmf3wmyra7jqttfx7z6zgtkygjhc7",
+  "slpAddress": "simpleledger:qp3sn6vlwz28ntmf3wmyra7jqttfx7z6zg8d0n8hxq",
+  "scriptPubKey": "76a9146309e99f709479af698bb641f7d202d693785a1288ac",
+  "asm": "OP_DUP OP_HASH160 6309e99f709479af698bb641f7d202d693785a12 OP_EQUALVERIFY OP_CHECKSIG"
+}
+```
