@@ -24,6 +24,7 @@
     "standard": "^14.3.3"
   },
   "dependencies": {
+    "@chris.troutner/bch-js": "^2.3.10",
     "grpc-bchrpc-node": "^0.10.0"
   }
 }

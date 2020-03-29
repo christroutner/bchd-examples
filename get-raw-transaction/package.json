@@ -1,0 +1,12 @@
+{
+  "name": "get-raw-transaction",
+  "version": "1.0.0",
+  "description": "Retrieve and display a raw transaction from the blockchain.",
+  "main": "get-raw-transaction.js",
+  "scripts": {
+    "test": "echo no tests yet",
+    "start": "node get-raw-transaction.js"
+  },
+  "author": "Chris Troutner <chris.troutner@gmail.com>",
+  "license": "MIT"
+}
