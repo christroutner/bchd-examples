@@ -26,5 +26,17 @@
   "dependencies": {
     "@chris.troutner/bch-js": "^2.3.10",
     "grpc-bchrpc-node": "^0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christroutner/bchd-examples.git"
+  },
+  "release": {
+    "publish": [
+      {
+        "path": "@semantic-release/npm",
+        "npmPublish": false
+      }
+    ]
   }
 }

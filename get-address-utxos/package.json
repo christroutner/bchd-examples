@@ -1,0 +1,12 @@
+{
+  "name": "get-address-utxos",
+  "version": "1.0.0",
+  "description": "Retrieve and display UTXOs held in an address",
+  "main": "get-address-utxos.js",
+  "scripts": {
+    "test": "echo no tests yet",
+    "start": "node get-address-utxos.js"
+  },
+  "author": "Chris Troutner <chris.troutner@gmail.com>",
+  "license": "MIT"
+}
