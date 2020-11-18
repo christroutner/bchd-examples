@@ -20,7 +20,7 @@
   "author": "Chris Troutner <chris.troutner@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "semantic-release": "^17.0.4",
+    "semantic-release": "^17.2.3",
     "standard": "^14.3.3"
   },
   "dependencies": {
